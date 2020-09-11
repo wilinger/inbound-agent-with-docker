@@ -1,4 +1,4 @@
-FROM jenkin/inbound-agent
+FROM jenkins/inbound-agent
 ARG DOCKER_VERSION=5:19.03.12~3-0~debian-buster
 ARG DC_VERSION=1.27.2
 USER root
